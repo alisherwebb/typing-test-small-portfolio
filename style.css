@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(8, 15, 31, 0.8);
+  background-color: rgba(7, 11, 20, 0.8);
   padding: 3rem;
   border-radius: 15px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
