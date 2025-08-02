@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absolute code</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="universe">
+      <h1 class="title">TYPING... TEST</h1>
+
+      <div class="button-group">
+        <button id="easyBtn" class="btn easy">Easy</button>
+        <button id="normalBtn" class="btn normal">Normal</button>
+        <button id="hardBtn" class="btn hard">Hard</button>
+      </div>
+
+      <div id="wordDisplay" class="word-display"></div>
+      <input
+        id="wordInput"
+        type="text"
+        class="word-input"
+        autocomplete="off"
+        autofocus
+      />
+
+      <div class="stats">time: <span id="timeLeft">60</span>s</div>
+      <div class="stats">completed: <span id="score">0</span></div>
+      <div class="stats">rekordiz amaki: <span id="highScore">0</span></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
